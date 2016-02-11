@@ -28,7 +28,7 @@ public class FileAction {
 			BufferedReader bufferedReader = new BufferedReader(fileReader);
 
 			while ((line = bufferedReader.readLine()) != null) {
-				System.out.println(line);
+				//System.out.println(line);
 				//StringTokenizer tokens = new StringTokenizer(line, " ");
 				//tokens = new StringTokenizer(line, " ");
 				lineArrayList.add(line);
